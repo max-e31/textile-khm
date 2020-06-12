@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
+  title: 'Textile Khmelnytskyi', // Required
+  author: 'Max E31', // Required
+  description: 'BMW FAN',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
@@ -13,5 +13,5 @@ module.exports = {
     linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald',
   },
   pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  siteUrl: '',
 };

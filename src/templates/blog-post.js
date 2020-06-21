@@ -41,11 +41,6 @@ class BlogPostTemplate extends React.Component {
           </Helmet>
           <Card>
             <ArticleHeader>
-              {post.frontmatter.featuredImage && (
-                <FeaturedImage
-                  sizes={post.frontmatter.featuredImage.childImageSharp.sizes}
-                />
-              )}
               <h1>{post.frontmatter.title}</h1>
               <span />
             </ArticleHeader>

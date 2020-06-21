@@ -3,7 +3,7 @@ module.exports = {
   author: 'Домашний текстиль Хмельницкий', // Required
   description: 'Большой выбор домашнего текстиля, отправка наложенным платежем в любую точку Украины Новой Почтой или УкрПочтой',
   primaryColor: '#3498db', // Required
-  showHeaderImage: false,
+  showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 1, // Required
   social: {
@@ -13,5 +13,5 @@ module.exports = {
     linkedin: '',
   },
   pathPrefix: '/',
-  siteUrl: '',
+  siteUrl: 'https://textile-khm.shop/',
 };

@@ -5,7 +5,7 @@ module.exports = {
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
-  postsPerPage: 0, // Required
+  postsPerPage: 1, // Required
   social: {
     website: 'https://textile-khm.shop/',
     github: '',

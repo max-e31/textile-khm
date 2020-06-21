@@ -20,7 +20,7 @@ function Header({ config }) {
         )}
         <H1><Link to="/">{author}</Link></H1>
         <P>{description}</P>
-        <P><Link to="tel:+380976661777">+380976661777</Link></P>
+        <H1><Link to="tel:+380976661777">Телефон для заказа: +380976661777</Link></H1>
       </Wrapper>
     </Container> 
   );

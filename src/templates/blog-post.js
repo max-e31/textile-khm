@@ -47,7 +47,6 @@ class BlogPostTemplate extends React.Component {
                 />
               )}
               <h1>{post.frontmatter.title}</h1>
-              <p>{post.frontmatter.date}</p>
               <span />
             </ArticleHeader>
             <Article>

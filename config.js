@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'Textile Khmelnytskyi', // Required
-  author: 'Max E31', // Required
-  description: 'BMW FAN',
+  title: 'Домашний текстиль Хмельницкий', // Required
+  author: 'Домашний текстиль Хмельницкий', // Required
+  description: 'Большой выбор домашнего текстиля, отправка наложенным платежем в любую точку Украины Новой Почтой или УкрПочтой',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
-  postsPerPage: 5, // Required
+  postsPerPage: 0, // Required
   social: {
-    website: '',
+    website: 'https://textile-khm.shop/',
     github: '',
     twitter: '',
     linkedin: '',
   },
-  pathPrefix: '/devblog',
+  pathPrefix: '/',
   siteUrl: '',
 };

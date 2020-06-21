@@ -17,9 +17,8 @@ function Summary({date, title, excerpt, slug, image}) {
           </Link>
         }
         <H1><Link to={slug}>{title}</Link></H1>
-        <Date>{date}</Date>
         <P>{excerpt}</P>
-        <ContinueReading to={slug}>Continue Reading &rarr;</ContinueReading>
+        <ContinueReading to={slug}>Читать дальше&rarr;</ContinueReading>
     </Wrapper>
   );
 }

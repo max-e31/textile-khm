@@ -37,12 +37,6 @@ const IndexPage = ({ pageContext }) => {
             />
           </Card>
         ))}
-        <Pagination
-          isFirst={index === 1}
-          isLast={index === pageCount}
-          nextUrl={nextUrl}
-          previousUrl={previousUrl}
-        />
       </Container>
     </Layout>
   );

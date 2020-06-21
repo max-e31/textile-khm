@@ -14,4 +14,6 @@ module.exports = {
   },
   pathPrefix: '/',
   siteUrl: 'https://textile-khm.shop/',
+  telText: 'Телефон для заказа: +380976661777',
+  telNumber: '+380976661777'
 };

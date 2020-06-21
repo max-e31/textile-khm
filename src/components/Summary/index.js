@@ -7,6 +7,7 @@ import Wrapper from './Wrapper';
 import Link from './Link';
 import Date from './Date';
 import ContinueReading from './ContinueReading';
+import SocialLink from './SocialLink';
 
 function Summary({date, title, excerpt, slug, image}) {
   return (
@@ -18,6 +19,9 @@ function Summary({date, title, excerpt, slug, image}) {
         }
         <H1><Link to={slug}>{title}</Link></H1>
         <P>{excerpt}</P>
+        <SocialLink href="tel:+380976661777" rel="noopener">
+          Телефон для заказа: +380976661777
+        </SocialLink>
         <ContinueReading to={slug}>Читать дальше&rarr;</ContinueReading>
     </Wrapper>
   );

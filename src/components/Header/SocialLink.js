@@ -8,6 +8,7 @@ const SocialLink = styled.a`
   margin: 5px;
   padding: 5px 10px;
   text-decoration: none;
+  font-size: 1.6em;
 
   svg {
     display: inline-block;
